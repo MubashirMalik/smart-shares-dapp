@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+.NavBar {
+  height: 70px;
+  background: #f1f1f1;
+  display: flex;
+  margin: 0px 0px 30px 0px; /* TRBL */
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+
+.NavBar-right {
+  display: flex;
+}
+
+.NavBar-right li {
+  margin-left: 10px;
+}
+
+.NavBar-logo {
+  font-family: Lalezar;
+  font-size: 25px;
+}
+
+.NavBar-slogan {
+  margin-left: 5px;
+  font-size: 12px;
+}
